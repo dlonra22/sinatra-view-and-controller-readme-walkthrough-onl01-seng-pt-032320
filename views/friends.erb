@@ -8,10 +8,8 @@
 
   <body>
     <h1>My Super Cool Friends List</h1>
-    <% f = []
-    @friends.each_with_index do |f,i| 
-      
-    
-
+    <% @friends.each do |f| %>
+    <h2><%= f %></h2>
+    <% end %>
   </body>
 </html>
